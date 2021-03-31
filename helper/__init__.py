@@ -1,13 +1,8 @@
 
 import os, subprocess
 
-#service_port = os.getenv("service_port")
-#log_level = os.getenv("log_level")
-
-service_name = "myapplication"
-version = "1.0.0"
-service_port = "8080"
-log_level= "INFO"
+service_port = os.getenv("service_port")
+log_level = os.getenv("log_level")
 
 def get_details():
     """ Function to get the details """
