@@ -34,7 +34,7 @@ Install [docker](https://docs.docker.com/engine/installation/)
 To build the docker image
 
 ```shell
-docker build -t myapi:latest .
+docker build -t api:latest .
 ```
 
 Install [docker-compose](https://docs.docker.com/compose/install/)

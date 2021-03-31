@@ -2,7 +2,9 @@
 import os, subprocess
 
 service_port = os.getenv("service_port")
+service_name = os.getenv("service_name")
 log_level = os.getenv("log_level")
+version = os.getenv("version")
 
 def get_details():
     """ Function to get the details """

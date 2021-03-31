@@ -1,7 +1,7 @@
 version: "3.8"
 services:
  Webserver:
-    image: "myapi"
+    image: "api"
     env_file:
      - config.env
     ports:
